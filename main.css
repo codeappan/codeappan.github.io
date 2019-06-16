@@ -13,7 +13,7 @@ body {
     z-index: 10;
 }
 .navbar {
-    background-image: linear-gradient(to right, #0000cc, #7061cc);
+    background-image: linear-gradient(to right, #0000cc, #0000cc);
     padding: 0 !important;
 }
 .navbar-brand {
@@ -46,7 +46,7 @@ body {
 /*** Banner Section****/
 
 #banner {
-    background-image:linear-gradient(to right, #0000cc, #7061cc);
+    background-image:linear-gradient(to right, #0000cc, #0000cc);
     color: #ffffff;
     padding-top: 5%;
 
@@ -145,7 +145,7 @@ body {
     padding: 8px 25px;
     border: none;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #0000cc, #7061cc);
+    background-image: linear-gradient(to right, #0000cc, #0000cc);
 }
 
 #testimonials .col-md-2 {
@@ -179,7 +179,7 @@ body {
 
 
 #footer {
-    background-image:linear-gradient(to right, #0000cc, #7061cc);
+    background-image:linear-gradient(to right, #0000cc, #0000cc);
     color: white;
 }
 #footer img{
