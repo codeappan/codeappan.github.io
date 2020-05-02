@@ -7,7 +7,6 @@ $(document).ready(function(){
         'Web Development',
         'App Development',
         'Digital Marketing',
-        'Software Development',
         'Branding'  
       ], i = 0;
       
