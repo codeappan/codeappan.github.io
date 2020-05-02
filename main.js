@@ -4,8 +4,11 @@ $(document).ready(function(){
 
     
     var words = [
-        'Web',
-        'App'
+        'Web Development',
+        'App Development',
+        'Digital Marketing',
+        'Software Development',
+        'Branding'  
       ], i = 0;
       
       setInterval(function () {

@@ -49,12 +49,17 @@ body {
 #banner {
     background-image:linear-gradient(to right, #0000cc, #0000cc);
     color: #ffffff;
-    padding-top: 5%;
+    padding: 50px 0px 0px 0px;
 
 }
 #banner a {
     color: white !important;
 }
+
+#banner img {
+    margin-top: 50px;
+}
+
 .promo-title {
     font-size: 40px;
     font-weight: 600;
@@ -71,7 +76,7 @@ body {
 
 /*** Services Section****/
 #services {
-    padding: 80px 0px;
+    padding: 30px 0px;
 }
 
 .services-img {
@@ -100,8 +105,8 @@ body {
 /*** Abouts Section****/
 
 #about-us {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    background-color: #faf7f7;
+    padding: 30px 0px 30px 0px;
 }
 
 .about-us-titile {
@@ -120,7 +125,8 @@ body {
 
 
 #testimonials {
-    margin: 100px;
+    padding: 140px 0px 0px 0px;
+    /* margin: 100px; */
 }
 
 .testimonials {
@@ -159,7 +165,7 @@ body {
 
 #social_media_section {
 
-    padding: 100px 0;
+    padding: 100px 0px 0px 0px;
 }
 
 #social_media_section p {
@@ -169,7 +175,8 @@ body {
 }
 
 .social-icons img {
-    width: 60px;
+    margin: 10px;
+    width: 50px;
     transition: 0.5s;
 }
 .social-icons a:hover img {
@@ -211,7 +218,11 @@ body {
 }
 
 hr {
-    background-color: white;
+    max-width: 60%;
+    margin: auto;
+    border: 0;
+    border-top: .5px solid ;
+    background-color: #ffffff41;
 }
 
 .copyright {
@@ -226,7 +237,5 @@ hr {
     color: white;
 }
 .copyright a:hover {
-    text-decoration: none;
     color: #c7c8c5;
 }
-
