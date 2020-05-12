@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "codeappan"
+    }
+  },
+  "defaultProject": "codeappan",
+  "cli": {
+    "analytics": "4665dc26-66a7-44d5-bf95-dfeda03d143e"
+  }
 }
