@@ -1,0 +1,37 @@
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar {
+    background-image: linear-gradient(to right, #0000cc, #0000cc);
+    padding: 0 !important;
+    box-shadow: 3px -4px 20px #0000cc;
+}
+.navbar-brand {
+    font-family: 'Righteous', cursive;
+    letter-spacing: -2.5px;
+    padding-left: 10px;
+    color: #ffffff !important;
+    font-weight: 500;
+}
+
+/* .navbar-brand img {
+
+} */
+.navbar-nav li {
+    padding: 0 10px;
+}
+.navbar-nav a {
+    color: #ffffff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+.fa-bars {
+    color: #ffffff;
+    font-size: 30px !important;
+}
+.navbar-toggler {
+    outline: none !important;
+}

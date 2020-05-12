@@ -1,43 +1,7 @@
 
 
 
-#nav-bar {
-    position: sticky;
-    top: 0;
-    z-index: 10;
-}
-.navbar {
-    background-image: linear-gradient(to right, #0000cc, #0000cc);
-    padding: 0 !important;
-    box-shadow: 3px -4px 20px #0000cc;
-}
-.navbar-brand {
-    font-family: 'Righteous', cursive;
-    letter-spacing: -2.5px;
-    padding-left: 10px;
-    color: #ffffff !important;
-    font-weight: 500;
-}
 
-/* .navbar-brand img {
-
-} */
-.navbar-nav li {
-    padding: 0 10px;
-}
-.navbar-nav a {
-    color: #ffffff !important;
-    font-weight: 600;
-    float: right;
-    text-align: left;
-}
-.fa-bars {
-    color: #ffffff;
-    font-size: 30px !important;
-}
-.navbar-toggler {
-    outline: none !important;
-}
 /*** Banner Section****/
 
 #banner {
@@ -177,39 +141,6 @@
     transform: translateY(-10px);
 }
 
-/*** Footer Section****/
-
-
-#footer {
-    background-image:linear-gradient(to right, #0000cc, #0000cc);
-    color: white;
-}
-#footer img{
-    width: 100%;
-}
-
-.footer-box {
-    padding: 20px;
-}
-
-.footer-box img {
-    height: 120px;
-    width: 5px;
-    margin-bottom: 20px;
-}
-.footer-box .fas {
-    margin-right: 8px;
-    text-align: center;
-    padding-top: 7px;
-    border-radius: 5px;
-    }
-    /* .footer-box .form-control {
-
-} */
-
-.form-control .btn-primary {
-    margin-top: 30px !important;
-}
 
 hr {
     max-width: 60%;
@@ -217,19 +148,4 @@ hr {
     border: 0;
     border-top: .5px solid ;
     background-color: #ffffff41;
-}
-
-.copyright {
-    font-size: 12px;
-    margin-bottom: 0px;
-    text-align: center;
-    padding-bottom: 10px;
-}
-
-.copyright a {
-    text-decoration: none;
-    color: white;
-}
-.copyright a:hover {
-    color: #c7c8c5;
 }
