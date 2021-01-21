@@ -80,8 +80,10 @@ body {
 }
 
 .services-img {
-    width: 100px;
-    margin-top: 20px;
+    /* width: 100px;
+    margin-top: 20px; */
+    object-fit: cover;
+    max-height: 200px;
 }
 .services {
     padding: 20px;
@@ -102,14 +104,14 @@ body {
     background-image:linear-gradient(to right, #0000cc, #7061cc);
 }
 
-/*** Abouts Section****/
+/*** About us Section****/
 
 #about-us {
-    background-color: #faf7f7;
+    background-color: #0000cc08;
     padding: 30px 0px 30px 0px;
 }
 
-.about-us-titile {
+.about-us-title {
     font-size: 30px;
     font-weight: 600;
     margin-top: 8%;
