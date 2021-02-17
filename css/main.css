@@ -87,6 +87,7 @@ body {
 }
 .services {
     padding: 20px;
+    text-align: justify;
 }
 .services h4 {
     padding: 5px;
