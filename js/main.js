@@ -4,10 +4,14 @@ $(document).ready(function(){
 
     
     var words = [
-        'Web Development',
+        'UX and UI Design',
         'App Development',
-        'Digital Marketing',
-        'Branding'  
+        'Web Development',
+        'Cloud, Devops, Hosting',
+        'SEO and SEM',
+        'Social Media Marketing',
+        'Creative Content Writing',
+        'Professional Logo Design'  
       ], i = 0;
       
       setInterval(function () {
