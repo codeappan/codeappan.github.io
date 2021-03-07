@@ -16,11 +16,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Chrome, Firefox OS and Opera -->
-    <meta name="theme-color" content="#0000cc">
+    <meta name="theme-color" content="#111e6c">
     <!-- Windows Phone -->
-    <meta name="msapplication-navbutton-color" content="#0000cc">
+    <meta name="msapplication-navbutton-color" content="#111e6c">
     <!-- iOS Safari -->
-    <meta name="apple-mobile-web-app-status-bar-style" content="#0000cc">
+    <meta name="apple-mobile-web-app-status-bar-style" content="#111e6c">
 
     <link rel="stylesheet" href="css/main.css">
 
@@ -53,141 +53,166 @@
 <body>
     <!-- Navigation Section-->
     <section id="nav-bar">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand" href="#"><img src="images/logo_white_tranceperent70px.png" height="79"
-                    width="70" />&nbsp;&nbsp;&nbsp; C O D E A P P A N</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <img src="svg/burger.svg" alt="">
-            </button>
-            
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item ">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#about-us">About Us</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Testimonials</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#footer">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container mt-3">
+                <a class="navbar-brand" href="#"><img src="images/codeappan-logo.svg" height="60" /></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <img src="svg/burger.svg" alt="">
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item ">
+                            <a class="nav-link" href="#">Home </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonials">Testimonials</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#footer">Contact</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
     </section>
 
     <!-- Banner Section-->
-    <section id="banner">
-        <div class="container">
+    <section id="banner" class="jumbotron d-flex align-items-center">
+        <div class="container mb-5" style="margin-bottom: 100px;">
             <div class="row">
                 <div class="col-md-6">
-                    <p class="promo-title">We Make <br><span id="changeText" >Web Development</span><br>Simple & Adaptive</p>
+                    <p class="promo-title">We Make <br><span id="changeText" style="color: #111E6C;"
+                            class="font-weight-bold">Web Development</span><br>Simple & Adaptive</p>
                     <p> we are committed to deliver the best customer centric solutions.</p>
-                    <!-- <a href="#"><img src="images/logo_white_tranceperent_resize.png" class="play.btn" alt="see works logo">&nbsp;&nbsp;See Our Works</a> -->
-                   <a href="#footer"><button class="btn btn-outline-light">Contact Us</button></a>
-                    
+                    <a href="#footer"><button class="btn btn-outline-secondary">Contact Us</button></a>
+
                 </div>
-                <div class="col-md-6 text-center">
-                    <!-- <img src="images/avatar_account_settings_2x-vfl6c6JNc.png" class="img-fluid" /> -->
+                <div class="col-md-6 text-center mt-5">
                     <img src="svg/undraw_work_together_h63l.svg" class="img-fluid" />
                 </div>
             </div>
         </div>
-
-        <img src="images/white_curve-update2.png" class="bottom-img" />
     </section>
 
     <!-- Services section -->
-
-    <section id="services">
+    <section class="py-3" id="services">
         <div class="container text-center">
             <h1 class="services-title">Our Services.</h1>
             <div class="row text-center">
                 <div class="col-md-4 services">
-                    <div class="card "  style="border: none;">
+                    <div class="card " style="border: none;">
                         <div class="card-body">
-                            <!-- <img src="images/resource_illustrations.png" class="services-img card-img-top" /> -->
-                            <h4>UX and UI Design.</h4>
+                            <div class="icon text-primary"> 
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-layers" viewBox="0 0 24 24">
+                                    <path d="M8.235 1.559a.5.5 0 0 0-.47 0l-7.5 4a.5.5 0 0 0 0 .882L3.188 8 .264 9.559a.5.5 0 0 0 0 .882l7.5 4a.5.5 0 0 0 .47 0l7.5-4a.5.5 0 0 0 0-.882L12.813 8l2.922-1.559a.5.5 0 0 0 0-.882l-7.5-4zm3.515 7.008L14.438 10 8 13.433 1.562 10 4.25 8.567l3.515 1.874a.5.5 0 0 0 .47 0l3.515-1.874zM8 9.433L1.562 6 8 2.567 14.438 6 8 9.433z"/>
+                                  </svg>
+                            </div>
+                            <h4 class="mt-0">UX and UI Design.</h4>
                             <p class="card-text">
-                                We design beautiful, functional and purposeful apps, web-apps and websites. 
-                                From Wire-frames to MVP to Pixel-Perfect designs. 
+                                We design beautiful, functional and purposeful apps, web-apps and websites.
+                                From Wire-frames to MVP to Pixel-Perfect designs.
                                 Complex workflows simplified but also beauty of a brand brought out by the simplicity
                             </p>
                         </div>
                     </div>
-    
+
                 </div>
                 <div class="col-md-4 services">
                     <div class="card" style="border: none;">
                         <div class="card-body">
-                            <!-- <img src="images/avatar_account_settings_2x-vfl6c6JNc.png" class="services-img card-img-top" /> -->
-                            <h4>Development.</h4>
-                            <p>  We engineer and build software, web and mobile applications, APIs and more.
-                                 Our team is experienced with modern technologies and programming languages.
-                                 Our processes are effective and lean.</p>
+                            <div class="icon text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-terminal" viewBox="0 0 24 24">
+                                    <path d="M6 9a.5.5 0 0 1 .5-.5h3a.5.5 0 0 1 0 1h-3A.5.5 0 0 1 6 9zM3.854 4.146a.5.5 0 1 0-.708.708L4.793 6.5 3.146 8.146a.5.5 0 1 0 .708.708l2-2a.5.5 0 0 0 0-.708l-2-2z"/>
+                                    <path d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H2a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1h12z"/>
+                                  </svg>                              </div>
+                            <h4 class="mt-0">Development.</h4>
+                            <p> We engineer and build software, web and mobile applications, APIs and more.
+                                Our team is experienced with modern technologies and programming languages.
+                                Our processes are effective and lean.</p>
                         </div>
                     </div>
-    
+
                 </div>
                 <div class="col-md-4 services">
-                    <div class="card"  style="border: none;">
+                    <div class="card" style="border: none;">
                         <div class="card-body">
-                            <!-- <img src="images/referral-landing@2x.png" class="services-img card-img-top" /> -->
-                            <h4>Cloud, Devops, Hosting.</h4>
-                            <p>We help to deploy  applications in the cloud depending on your requirements.
-                                 We can ensure the Scalability and high-performance of the application cost effectively.
-                               
+                            <div class="icon text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-cloud-check" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M10.354 6.146a.5.5 0 0 1 0 .708l-3 3a.5.5 0 0 1-.708 0l-1.5-1.5a.5.5 0 1 1 .708-.708L7 8.793l2.646-2.647a.5.5 0 0 1 .708 0z"/>
+                                    <path d="M4.406 3.342A5.53 5.53 0 0 1 8 2c2.69 0 4.923 2 5.166 4.579C14.758 6.804 16 8.137 16 9.773 16 11.569 14.502 13 12.687 13H3.781C1.708 13 0 11.366 0 9.318c0-1.763 1.266-3.223 2.942-3.593.143-.863.698-1.723 1.464-2.383zm.653.757c-.757.653-1.153 1.44-1.153 2.056v.448l-.445.049C2.064 6.805 1 7.952 1 9.318 1 10.785 2.23 12 3.781 12h8.906C13.98 12 15 10.988 15 9.773c0-1.216-1.02-2.228-2.313-2.228h-.5v-.5C12.188 4.825 10.328 3 8 3a4.53 4.53 0 0 0-2.941 1.1z"/>
+                                  </svg>                              </div>
+                            <h4 class="mt-0">Cloud, Devops, Hosting.</h4>
+                            <p>We help to deploy applications in the cloud depending on your requirements.
+                                We can ensure the Scalability and high-performance of the application cost effectively.
+
                             </p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
             <div class="row text-center">
                 <div class="col-md-4 services">
-                    <div class="card  text-center"  style="border: none;">
-                        <div class="card-body">
-                            <!-- <img src="images/resource_illustrations.png" class="services-img card-img-top" /> -->
-                            <h4> Search Engine Optimization and Marketing</h4>
+                    <div class="card" style="border: none;">
+                        <div class="card-body">                            
+                            <div class="icon text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-graph-up" viewBox="0 0 24 24">
+                                    <path fill-rule="evenodd" d="M0 0h1v15h15v1H0V0zm10 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 .5.5v4a.5.5 0 0 1-1 0V4.9l-3.613 4.417a.5.5 0 0 1-.74.037L7.06 6.767l-3.656 5.027a.5.5 0 0 1-.808-.588l4-5.5a.5.5 0 0 1 .758-.06l2.609 2.61L13.445 4H10.5a.5.5 0 0 1-.5-.5z"/>
+                                  </svg>                            </div>
+                            <h4 class="mt-0">SEO and SEM</h4>
+                            <!-- <h4> Search Engine Optimization and Marketing</h4> -->
                             <p class="card-text">
-                                we can help you to stand out amongst your competitors by optimizing and marketing your services or products in various search engines.
-                               
+                                we can help you to stand out amongst your competitors by optimizing and marketing your
+                                services or products in various search engines.
+
                             </p>
                         </div>
                     </div>
-    
+
                 </div>
                 <div class="col-md-4 services">
                     <div class="card" style="border: none;">
                         <div class="card-body">
-                            <!-- <img src="images/avatar_account_settings_2x-vfl6c6JNc.png" class="services-img card-img-top" /> -->
-                            <h4>Content Writing.</h4>
-                            <p>Our multifaceted content creators are always available to research and formulate appealing content for your websites or products.</p>
+                            <div class="icon text-primary">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-vector-pen" viewBox="0 0 24 24">
+                                <path fill-rule="evenodd" d="M10.646.646a.5.5 0 0 1 .708 0l4 4a.5.5 0 0 1 0 .708l-1.902 1.902-.829 3.313a1.5 1.5 0 0 1-1.024 1.073L1.254 14.746 4.358 4.4A1.5 1.5 0 0 1 5.43 3.377l3.313-.828L10.646.646zm-1.8 2.908l-3.173.793a.5.5 0 0 0-.358.342l-2.57 8.565 8.567-2.57a.5.5 0 0 0 .34-.357l.794-3.174-3.6-3.6z"/>
+                                <path fill-rule="evenodd" d="M2.832 13.228L8 9a1 1 0 1 0-1-1l-4.228 5.168-.026.086.086-.026z"/>
+                              </svg>
+                              </div>
+                            <h4 class="mt-0">Content Writing.</h4>
+                            <p>Our multifaceted content creators are always available to research and formulate
+                                appealing
+                                content for your websites or products.</p>
                         </div>
                     </div>
-    
+
                 </div>
                 <div class="col-md-4 services">
-                    <div class="card"  style="border: none;">
+                    <div class="card" style="border: none;">
                         <div class="card-body">
-                            <!-- <img src="images/referral-landing@2x.png" class="services-img card-img-top" /> -->
-                            <h4>Branding.</h4>
+                            <div class="icon text-primary">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-brush" viewBox="0 0 24 24">
+                                    <path d="M15.825.12a.5.5 0 0 1 .132.584c-1.53 3.43-4.743 8.17-7.095 10.64a6.067 6.067 0 0 1-2.373 1.534c-.018.227-.06.538-.16.868-.201.659-.667 1.479-1.708 1.74a8.117 8.117 0 0 1-3.078.132 3.658 3.658 0 0 1-.563-.135 1.382 1.382 0 0 1-.465-.247.714.714 0 0 1-.204-.288.622.622 0 0 1 .004-.443c.095-.245.316-.38.461-.452.393-.197.625-.453.867-.826.094-.144.184-.297.287-.472l.117-.198c.151-.255.326-.54.546-.848.528-.739 1.2-.925 1.746-.896.126.007.243.025.348.048.062-.172.142-.38.238-.608.261-.619.658-1.419 1.187-2.069 2.175-2.67 6.18-6.206 9.117-8.104a.5.5 0 0 1 .596.04zM4.705 11.912a1.23 1.23 0 0 0-.419-.1c-.247-.013-.574.05-.88.479a11.01 11.01 0 0 0-.5.777l-.104.177c-.107.181-.213.362-.32.528-.206.317-.438.61-.76.861a7.127 7.127 0 0 0 2.657-.12c.559-.139.843-.569.993-1.06a3.121 3.121 0 0 0 .126-.75l-.793-.792zm1.44.026c.12-.04.277-.1.458-.183a5.068 5.068 0 0 0 1.535-1.1c1.9-1.996 4.412-5.57 6.052-8.631-2.591 1.927-5.566 4.66-7.302 6.792-.442.543-.796 1.243-1.042 1.826a11.507 11.507 0 0 0-.276.721l.575.575zm-4.973 3.04l.007-.005a.031.031 0 0 1-.007.004zm3.582-3.043l.002.001h-.002z"/>
+                                  </svg>
+                            </div>
+                            <h4 class="mt-0">Branding.</h4>
                             <p>Have a brand? or thinking to create one ? if yes, you've reached the right place!
-                                we can create professional designs like logo , posters and many more that represents your business to make an persistent impression on customers.</p>
+                                we can create professional designs like logo , posters and many more that represents
+                                your
+                                business to make an persistent impression on customers.</p>
                         </div>
                     </div>
-    
+
                 </div>
             </div>
-            <!-- <button type="button" class="btn btn-primary">See All Services</button> -->
-            <!-- <hr> -->
         </div>
     </section>
 
@@ -203,7 +228,8 @@
                     <p class="about-us-title">What's Unique About Us?</p>
                     <ul class="">
                         <li class="list-group-item" style="background: none;">Structured preparation and execution.</li>
-                        <li class="list-group-item" style="background: none;">Fully documented, transparent and result oriented process.</li>
+                        <li class="list-group-item" style="background: none;">Fully documented, transparent and result
+                            oriented process.</li>
                         <!-- <li class="list-group-item" style="background: none; border: none;">Result Oriented Approach.</li> -->
                         <li class="list-group-item" style="background: none; ">Unique Design Patterns.</li>
                         <li class="list-group-item" style="background: none;">Fully Optimized Products.</li>
@@ -223,61 +249,57 @@
                     <p>The Best digital Agency i ever seen in the market, And the super creative mindset always leads
                         there. At the best part is there are too good developers too. and im happy with cooperating
                         with you guys! </p>
-                    <img  src="images/avatar_account_settings_2x-vfl6c6JNc.png" />
-                    <p class="user-detail"><b>Salman P</b><br>MD <a href="https://mgpdecor.com">MGP Decor</a>, Abu Dhabi
+                    <!-- <img src="images/avatar_account_settings_2x-vfl6c6JNc.png" /> -->
+                    <p class="user-detail"><b>Salman P</b><br>MD. <a href="https://mgpdecor.com">MGP Decor</a>, Abu
+                        Dhabi.
                     </p>
                 </div>
             </div>
         </div>
     </section>
-
-         <!-- Stach tech Section-->
-         <!-- <section id="social_media_section">
-            <div class="container text-center">
-                <p>Our Tech Stack</p>
-                <div >
-                    <img src="images/node.png" height="100" width="150">
-                    <img src="images/mongo.png" height="100" width="300">
-              
-                </div>
-            </div>
-        </section> -->
-
-
-    <!-----Social Media section------>
-
-    <!-- <section id="social_media_section">
-        <div class="container text-center">
-            <p>Connect Us On Social Media</p>
-            <div class="social-icons">
-                <a href="https://instagram.com/codeappan" class="ml-3"><img src="images/instagram.png"></a>
-                <a href="https://dribbble.com/codeappan"><img src="images/dribbble.png"></a>
-                <a href="https://twitter.com/codeappan"><img src="images/twitter.png"></a>
-                <a href="https://facebook.com/codeappan"><img src="images/facebook.png"></a>
-               
+<hr>
+    <!--Tech Stach Section-->
+    <section id="techStack" class="py-5">
+        <div class="container-fluid text-center">
+            <h1 class="title text-center my-5">Tools we like.</h1>
+            <div id="logo-container">
+                <img src="images/logos/nodejs.svg" alt="nodejs" title="Node JS">
+                <img src="images/logos/mongodb.svg">
+                <img src="images/logos/expressjs.svg">
+                <img src="images/logos/angular.svg">
+                <img src="images/logos/react.svg">
+                <img src="images/logos/android.svg">
+                <img src="images/logos/firebase.svg">
+                <img src="images/logos/git.svg">
+                <img src="images/logos/ionic.svg">
+                <img src="images/logos/nestjs.svg">
+                <img src="images/logos/nextjs.svg">
+                <img src="images/logos/shopify.svg">
+                <img src="images/logos/wordpress.svg">
+                <img src="images/logos/woocommerce.svg">
+                <img src="images/logos/xd.svg">
+                <img src="images/logos/illustrator.svg">
+                <img src="images/logos/photoshop.svg">
             </div>
         </div>
-    </section> -->
+    </section>
 
     <!-----Footer section------>
-    <section id="footer">
-        <img src="images/white_curve-update2 - Copy.png" />
+    <section id="footer" class="py-5">
         <div class="container">
             <div class="row">
-               
-                <div class="col-md-6 footer-box">
+                <div class="col-md-6 py-3">
                     <p><b>Contact Us</b></p>
                     <p>Mobile 10X Building 28/1650D Govt. Cyberpark, Kerala 673016</p>
                     <p>+91 8129537178</p>
                     <p>info@codeappan.com</p>
                 </div>
-                <div class="col-md-6 d-flex align-items-end justify-content-end">
-                    <p class="copyright">© 2020 · <a href="/">codeappan</a> · All rights reserved </p>
+                <div class="col-md-6">
+                    <img src="./images/codeappan-logo-white.svg" style="height: 60px;" alt="">
+
                 </div>
-                
+
             </div>
-            
-           
         </div>
     </section>
 
